@@ -1,0 +1,48 @@
+/* About.css */
+
+.about-container {
+    padding: 20px; /* Add some padding around the content */
+    max-width: 800px; /* Limit the maximum width for better readability */
+    margin: auto; /* Center the container */
+    background-color: #ffcccb; /* Baby pink background color */
+    border-radius: 10px; /* Rounded corners for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+
+h1 {
+    color: #2c3e50; /* Darker color for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+h2 {
+    color: #2c3e50; /* Darker color for subheadings */
+    margin-top: 30px; /* Space above the subheading */
+}
+
+.groups-container {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    gap: 20px; /* Space between the group boxes */
+    margin-top: 20px; /* Space above the groups section */
+}
+
+.group-box {
+    flex: 1 1 calc(45% - 20px); /* Flex item with a responsive width */
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    padding: 15px; /* Padding inside the box */
+    border-radius: 10px; /* Rounded corners for each box */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect for each box */
+    transition: transform 0.3s; /* Transition effect for scaling */
+}
+
+.group-box:hover {
+    transform: scale(1.05); /* Slightly zoom in on hover */
+}
+
+h3 {
+    color: #333; /* Darker color for group headings */
+}
+
+p {
+    color: #555; /* Darker grey for paragraph text */
+}

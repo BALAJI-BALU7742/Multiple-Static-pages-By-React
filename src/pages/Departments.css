@@ -1,0 +1,32 @@
+/* Departments.css */
+.departments-container {
+    text-align: center; /* Center the text */
+    margin: 20px; /* Margin around the container */
+    padding: 20px; /* Padding around the content */
+    background-color: #ffccdd; /* Baby pink background color */
+    border-radius: 10px; /* Rounded corners */
+    color: white; /* Change text color to white */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+.nav-buttons {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the buttons */
+    gap: 20px; /* Space between buttons */
+    margin: 20px 0; /* Space above and below the buttons */
+}
+
+.department-button {
+    padding: 10px 20px; /* Button padding */
+    border-radius: 5px; /* Rounded corners */
+    color: white; /* Text color */
+    background: rgba(0, 123, 255, 0.7); /* Background color with transparency */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+    transition: background 0.3s, transform 0.3s; /* Transition effects */
+}
+
+.department-button:hover {
+    background: rgba(0, 123, 255, 1); /* Solid background on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
